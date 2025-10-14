@@ -1,5 +1,6 @@
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/appbar_theme.dart';
+import 'package:e_commerce/utils/theme/widgets_theme/checkbox_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/chip_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/text_theme.dart';
 import 'package:flutter/material.dart';
@@ -19,6 +20,7 @@ class UApptheme {
     chipTheme: UChipTheme.lightChipTheme,
     scaffoldBackgroundColor: UColors.white,
     appBarTheme: UAppBarTheme.lightAppBarTheme,
+    checkboxTheme: UCheckboxTheme.lightCheckboxTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -33,5 +35,6 @@ class UApptheme {
     chipTheme: UChipTheme.darkChipTheme,
     scaffoldBackgroundColor: UColors.black,
     appBarTheme: UAppBarTheme.darkAppBarTheme,
+    checkboxTheme: UCheckboxTheme.lightCheckboxTheme,
   );
 }
