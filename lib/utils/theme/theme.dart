@@ -1,4 +1,5 @@
 import 'package:e_commerce/utils/constants/colors.dart';
+import 'package:e_commerce/utils/theme/widgets_theme/appbar_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/chip_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/text_theme.dart';
 import 'package:flutter/material.dart';
@@ -15,9 +16,9 @@ class UApptheme {
     textTheme: UTextTheme.lightTextTheme,
 
     //additional
-    chipTheme:UChipTheme.lightChipTheme ,
+    chipTheme: UChipTheme.lightChipTheme,
     scaffoldBackgroundColor: UColors.white,
-
+    appBarTheme: UAppBarTheme.lightAppBarTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -28,9 +29,9 @@ class UApptheme {
     disabledColor: UColors.buttonDisabled,
     textTheme: UTextTheme.darkTextTheme,
 
-    
     //additional
-    chipTheme:UChipTheme.darkChipTheme ,
-    //scaffoldBackgroundColor: UColors.white,
+    chipTheme: UChipTheme.darkChipTheme,
+    scaffoldBackgroundColor: UColors.black,
+    appBarTheme: UAppBarTheme.darkAppBarTheme,
   );
 }
