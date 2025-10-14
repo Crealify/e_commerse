@@ -36,13 +36,13 @@ class UCheckboxTheme {
       if (states.contains(WidgetState.selected)) {
         return UColors.white;
       }
-      return UColors.white;
+      return UColors.black;
     }),
     fillColor: WidgetStateProperty.resolveWith((states) {
-      if (states.contains(WidgetState.disabled)) {
+      if (states.contains(WidgetState.selected)) {
         return UColors.primary;
       } else {
-        return UColors.darkerGrey;
+        return Colors.transparent;
       }
     }),
   );
