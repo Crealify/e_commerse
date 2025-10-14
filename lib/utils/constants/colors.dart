@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class UColors {
  
   // Primary Color
-  static const primryColor = Color(0xFF000000);
+  static const primary = Color(0xFF000000);
 
   // Text Color
   static const Color textPrimary = Color(0xFF333333);
