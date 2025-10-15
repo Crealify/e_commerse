@@ -3,6 +3,7 @@ import 'package:e_commerce/utils/theme/widgets_theme/appbar_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/bottom_sheet_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/checkbox_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/chip_theme.dart';
+import 'package:e_commerce/utils/theme/widgets_theme/eleveted_button_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/text_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -23,6 +24,7 @@ class UApptheme {
     appBarTheme: UAppBarTheme.lightAppBarTheme,
     checkboxTheme: UCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: UBottomSheetTheme.lightBottomSheetTheme,
+    elevatedButtonTheme: UElevatedButtonTheme.lightElevatedButtonTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -39,5 +41,6 @@ class UApptheme {
     appBarTheme: UAppBarTheme.darkAppBarTheme,
     checkboxTheme: UCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: UBottomSheetTheme.darkBottomSheetTheme,
-  );
+    elevatedButtonTheme: UElevatedButtonTheme.darkElevatedButtonTheme,
+  ); 
 }
