@@ -4,6 +4,8 @@ import 'package:e_commerce/utils/theme/widgets_theme/bottom_sheet_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/checkbox_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/chip_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/eleveted_button_theme.dart';
+import 'package:e_commerce/utils/theme/widgets_theme/outlined_button_theme.dart';
+import 'package:e_commerce/utils/theme/widgets_theme/text_field_theme.dart';
 import 'package:e_commerce/utils/theme/widgets_theme/text_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -25,6 +27,8 @@ class UApptheme {
     checkboxTheme: UCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: UBottomSheetTheme.lightBottomSheetTheme,
     elevatedButtonTheme: UElevatedButtonTheme.lightElevatedButtonTheme,
+    outlinedButtonTheme: UOutlinedButtonTheme.lightOutlinedButtonTheme,
+    inputDecorationTheme: UTextFormFieldTheme.lightInputDecorationTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -42,5 +46,7 @@ class UApptheme {
     checkboxTheme: UCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: UBottomSheetTheme.darkBottomSheetTheme,
     elevatedButtonTheme: UElevatedButtonTheme.darkElevatedButtonTheme,
-  ); 
+    outlinedButtonTheme: UOutlinedButtonTheme.darkOutlinedButtonTheme,
+    inputDecorationTheme: UTextFormFieldTheme.darkInputDecorationTheme,
+  );
 }
